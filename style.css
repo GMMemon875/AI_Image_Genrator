@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-genration {
+  height: 60vh;
+  background-image: url(image/bg.jpg);
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.image-genration ::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  background-color: black;
+} */
+
+.image-genration .container {
+  color: #ffff;
+  padding: 0, 15px;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+}
+.image-genration h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.image-genration p {
+  font-size: 1.35rem;
+  margin-top: 10px;
+}
+
+.form-control {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+
+  background: #ffff;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+.promt {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0.19px;
+}
+.control {
+  display: flex;
+  height: 100%;
+  gap: 15px;
+}
+
+.image-qulti {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1rem;
+}
+.btn {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  padding: 0 40px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 40px;
+  margin-top: 1%;
+  margin-right: 2px;
+
+  font-weight: 500;
+  background: orangered;
+}
+input::placeholder {
+  padding: 5%;
+}
