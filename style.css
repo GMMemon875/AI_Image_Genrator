@@ -93,3 +93,48 @@
 input::placeholder {
   padding: 5%;
 }
+
+.image-gallery .image-card {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-gallery {
+  display: grid;
+  display: flex;
+  gap: 5px;
+  padding: 0 15%;
+  max-width: 1250px;
+  justify-content: center;
+}
+.image-gallery .image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 4%;
+}
+
+.download-container {
+  width: 15px;
+}
+.donwlod-btn {
+  position: absolute;
+  bottom: 3%;
+  left: 90%;
+  margin-left: 2%;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.image-card .loading {
+  width: 80px;
+  height: 80px;
+}
